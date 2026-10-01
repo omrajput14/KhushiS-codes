@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light" />
+  <title>Khushi Shinde — Data Science, Cloud &amp; Public Speaking</title>
+  <meta name="description" content="Khushi Shinde is a Data Science student working across Python, Java, TypeScript, Generative AI/ML, Docker and AWS — Cloud Developer & Communication Lead on Vetra, and a confident public speaker." />
+  <meta property="og:title" content="Khushi Shinde — Data Science, Cloud & Public Speaking" />
+  <meta property="og:description" content="Data Science student · Gen AI & ML certified · Cloud & presentation lead at Vetra." />
+  <!-- link previews: crawlers need absolute URLs — swap the domain below if the live site uses a different one -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://khushishinde.vercel.app/" />
+  <meta property="og:image" content="https://khushishinde.vercel.app/assets/og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Khushi Shinde — Data Science, Cloud & Public Speaking" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://khushishinde.vercel.app/" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='50' fill='%2338392e'/><text x='50' y='68' font-size='56' font-family='Arial' font-weight='700' text-anchor='middle' fill='%23e8e8df'>K</text></svg>" />
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+  <script>document.documentElement.classList.add('js'); history.scrollRestoration = 'manual';</script>
+</head>
+<body class="locked">
+  <!-- icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-star" viewBox="0 0 100 100"><g fill="currentColor"><rect x="43" width="14" height="100" rx="3"/><rect x="43" width="14" height="100" rx="3" transform="rotate(45 50 50)"/><rect x="43" width="14" height="100" rx="3" transform="rotate(90 50 50)"/><rect x="43" width="14" height="100" rx="3" transform="rotate(135 50 50)"/></g></symbol>
+    <symbol id="i-spark" viewBox="0 0 100 100"><path fill="currentColor" d="M50 0C53 30 70 47 100 50 70 53 53 70 50 100 47 70 30 53 0 50 30 47 47 30 50 0Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 100 100"><path fill="currentColor" d="M8 44h64L50 22l8-8 36 36-36 36-8-8 22-22H8z"/></symbol>
+  </svg>
+
+  <!-- loading screen -->
+  <div id="loader" aria-hidden="true">
+    <svg><path /></svg>
+    <p><span class="lt">Khushi Shinde</span></p>
+    <p><span class="lt dim">@Portfolio</span></p>
+    <div class="loader-foot"><span>© <span class="year">2026</span></span><span>Loading....</span></div>
+  </div>
+
+  <button id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  <div class="scrim"></div>
+  <aside id="menu" aria-label="Menu" inert>
+    <button id="menu-close" aria-label="Close menu"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="1.5"/></svg></button>
+    <ul class="menu-links">
+      <li style="--d:0"><a href="#home">Home</a></li>
+      <li style="--d:1"><a href="#services">Services</a></li>
+      <li style="--d:2"><a href="#projects">Projects</a></li>
+      <li style="--d:3"><a href="#about">About</a></li>
+      <li style="--d:4"><a href="#speaking">Speaking</a></li>
+      <li style="--d:5"><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-foot">
+      <p class="label">Email address</p>
+      <a href="mailto:shindekhushi1124@gmail.com">shindekhushi1124@gmail.com</a>
+      <div class="pills">
+        <a href="https://github.com/KhushiS-codes" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/khushi-shinde-112402s/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <header id="top-bar">
+        <a href="#home" class="logo">SHINDE<sup>©</sup></a>
+        <p class="status">Open to data &amp; cloud<br />internships</p>
+        <nav class="nav" aria-label="Primary">
+          <a class="roll" href="#services"><span data-t="Services">Services</span></a>,
+          <a class="roll" href="#projects"><span data-t="Projects">Projects</span></a>,
+          <a class="roll" href="#about"><span data-t="About">About</span></a>,
+          <a class="roll" href="#speaking"><span data-t="Speaking">Speaking</span></a>,
+          <a class="roll" href="#contact"><span data-t="Contact">Contact</span></a>
+        </nav>
+      </header>
+
+      <h1 class="hero-name"><span data-split="intro">KHUSHI</span><span id="star"><svg><use href="#i-star" /></svg></span></h1>
+
+      <div class="hero-grid">
+        <div class="hero-left">
+          <svg id="down-arrow" class="arrow-dr"><use href="#i-arrow" /></svg>
+          <p class="who" data-split="intro">I'm a data science student who builds with Python, AI and the cloud — and I'm just as comfortable presenting the findings as producing them.</p>
+          <div id="hero-btn"><a class="btn magnetic" href="#contact">GET IN TOUCH</a></div>
+        </div>
+        <figure class="hero-img"><img src="assets/hero.webp" alt="Portrait of Khushi Shinde smiling outdoors at dusk" /><span class="overlay"></span></figure>
+        <div class="hero-right">
+          <p>Open to internships</p>
+          <p class="date" id="date">SEP '26</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="dark">
+      <h2 class="sec-title" data-split>What I do /</h2>
+      <div class="sec-intro">
+        <p class="label" data-fade>( Services )</p>
+        <p data-fade>I turn raw data and cloud infrastructure into working products — and then into presentations people actually remember.</p>
+      </div>
+
+      <div class="svc-list">
+        <article class="svc" style="--i:0">
+          <p class="svc-num">( 01 )</p>
+          <div>
+            <h3>Cloud &amp; Deployment <svg class="spark"><use href="#i-spark" /></svg></h3>
+            <p>I own the cloud side of Vetra — getting services deployed on AWS, wiring up the API gateway, and keeping environments steady so the rest of the team can ship.</p>
+            <ol><li><span>01</span>AWS Cloud Infrastructure</li><li><span>02</span>API Gateway Integration</li><li><span>03</span>Docker &amp; Containerised Deployments</li></ol>
+          </div>
+        </article>
+        <article class="svc" style="--i:1">
+          <p class="svc-num">( 02 )</p>
+          <div>
+            <h3>Data Science &amp; Analysis <svg class="spark"><use href="#i-spark" /></svg></h3>
+            <p>Python by choice. I clean messy data, explore it, and run quick visual checks until the pattern is clear enough to act on.</p>
+            <ol><li><span>01</span>Data Cleaning &amp; Prep</li><li><span>02</span>Exploratory Analysis</li><li><span>03</span>Visualisation in Jupyter &amp; Excel</li></ol>
+          </div>
+        </article>
+        <article class="svc" style="--i:2">
+          <p class="svc-num">( 03 )</p>
+          <div>
+            <h3>Generative AI &amp; ML <svg class="spark"><use href="#i-spark" /></svg></h3>
+            <p>Certified by Infosys Springboard and AWS Educate. I work with foundation models, prompt design and fine-tuning — and I'm currently building with LangChain.</p>
+            <ol><li><span>01</span>Prompt Engineering</li><li><span>02</span>Model Fine-Tuning</li><li><span>03</span>Foundation Models</li></ol>
+          </div>
+        </article>
+        <article class="svc" style="--i:3">
+          <p class="svc-num">( 04 )</p>
+          <div>
+            <h3>Public Speaking <svg class="spark"><use href="#i-spark" /></svg></h3>
+            <p>My strongest skill. I lead Vetra's stakeholder presentations and turn complex systems into a story a room can follow — without losing it.</p>
+            <ol><li><span>01</span>Stakeholder Presentations</li><li><span>02</span>Hackathon Pitching</li><li><span>03</span>Technical Storytelling</li></ol>
+          </div>
+        </article>
+        <article class="svc" style="--i:4">
+          <p class="svc-num">( 05 )</p>
+          <div>
+            <h3>Programming Foundations <svg class="spark"><use href="#i-spark" /></svg></h3>
+            <p>Java for solid object-oriented code, TypeScript for the web, C++ when performance matters — with regular LeetCode practice to keep the fundamentals sharp.</p>
+            <ol><li><span>01</span>Java &amp; Python</li><li><span>02</span>TypeScript</li><li><span>03</span>C, C++ &amp; DSA</li></ol>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- MARQUEE + TOOLS -->
+    <section id="marquee" aria-label="Highlights">
+      <div class="mq-row" aria-hidden="true"><span>Cloud Deployments <svg><use href="#i-arrow" /></svg></span><span>Cloud Deployments <svg><use href="#i-arrow" /></svg></span><span>Cloud Deployments <svg><use href="#i-arrow" /></svg></span></div>
+      <div class="mq-row" aria-hidden="true"><span>Data Stories <svg><use href="#i-star" /></svg></span><span>Data Stories <svg><use href="#i-star" /></svg></span><span>Data Stories <svg><use href="#i-star" /></svg></span><span>Data Stories <svg><use href="#i-star" /></svg></span></div>
+      <div class="mq-row" aria-hidden="true"><span>Confident Pitches <svg><use href="#i-spark" /></svg></span><span>Confident Pitches <svg><use href="#i-spark" /></svg></span><span>Confident Pitches <svg><use href="#i-spark" /></svg></span></div>
+
+      <div class="tools-wrap">
+        <ul class="tools" aria-label="Tools I use">
+          <li class="tool" title="Python"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/python.svg)"></i><span class="sr">Python</span></li>
+          <li class="tool" title="Java"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/openjdk.svg)"></i><span class="sr">Java</span></li>
+          <li class="tool" title="TypeScript"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/typescript.svg)"></i><span class="sr">TypeScript</span></li>
+          <li class="tool" title="Docker"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/docker.svg)"></i><span class="sr">Docker</span></li>
+          <li class="tool" title="C++"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/cplusplus.svg)"></i><span class="sr">C++</span></li>
+          <li class="tool" title="C"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/c.svg)"></i><span class="sr">C</span></li>
+          <li class="tool" title="AWS"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/amazonaws.svg)"></i><span class="sr">AWS</span></li>
+          <li class="tool" title="Jupyter"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/jupyter.svg)"></i><span class="sr">Jupyter</span></li>
+          <li class="tool" title="LangChain"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/langchain.svg)"></i><span class="sr">LangChain</span></li>
+          <li class="tool" title="Excel"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/microsoftexcel.svg)"></i><span class="sr">Excel</span></li>
+          <li class="tool" title="Git"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/git.svg)"></i><span class="sr">Git</span></li>
+          <li class="tool" title="GitHub"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/github.svg)"></i><span class="sr">GitHub</span></li>
+          <li class="tool" title="VS Code"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/visualstudiocode.svg)"></i><span class="sr">VS Code</span></li>
+          <li class="tool" title="LeetCode"><i style="--i:url(https://cdn.jsdelivr.net/npm/simple-icons@9.21.0/icons/leetcode.svg)"></i><span class="sr">LeetCode</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="dark">
+      <h2 class="sec-title works-title"><span data-split>Selected works /</span> <span class="count" data-fade>( 3 )</span></h2>
+      <div class="sec-intro">
+        <p class="label" data-fade>( Projects )</p>
+        <p data-fade>Team products I've helped take to production, and my own experiments with AI.</p>
+      </div>
+
+      <div class="works">
+        <div id="index" aria-hidden="true"><span>01.</span></div>
+        <div class="work-list">
+          <article class="work" data-fade>
+            <a class="work-media" href="https://vetra-website-kappa.vercel.app" target="_blank" rel="noopener"><img src="assets/vetra.webp" alt="Vetra website homepage" loading="lazy" /></a>
+            <div class="work-info">
+              <div><p class="work-cat"><span class="work-num">01.</span> Cloud &amp; Communication Lead</p><h3>Vetra</h3></div>
+              <ul class="tags"><li>AWS</li><li>Spring Boot</li><li>Flutter</li><li class="year">2026</li></ul>
+            </div>
+            <p class="work-desc">Livestock healthcare platform connecting farmers with veterinarians across rural Maharashtra — offline-first records, digital animal passports and outbreak surveillance.</p>
+          </article>
+          <article class="work" data-fade>
+            <a class="work-media light" href="https://github.com/omrajput14/pashu-sathii" target="_blank" rel="noopener"><img src="assets/pashu-sathi.webp" alt="Pashu Sathi logo" loading="lazy" /></a>
+            <div class="work-info">
+              <div><p class="work-cat"><span class="work-num">02.</span> Smart India Hackathon 2026</p><h3>Pashu Sathi</h3></div>
+              <ul class="tags"><li>Flutter</li><li>Spring Boot</li><li>PostGIS</li><li class="year">2026</li></ul>
+            </div>
+            <p class="work-desc">National animal-health &amp; disease-surveillance platform built for SIH 2026 (PS #26128) — vernacular reporting, AI triage and district-level outbreak maps.</p>
+          </article>
+          <article class="work" data-fade>
+            <a class="work-media" href="https://github.com/KhushiS-codes/digital-identity-system" target="_blank" rel="noopener"><img src="assets/identity.webp" alt="Architecture diagram of the AI-Powered Digital Identity System" loading="lazy" /></a>
+            <div class="work-info">
+              <div><p class="work-cat"><span class="work-num">03.</span> AI &amp; Data Science</p><h3>Digital Identity System</h3></div>
+              <ul class="tags"><li>Python</li><li>Streamlit</li><li>scikit-learn</li><li class="year">2026</li></ul>
+            </div>
+            <p class="work-desc">Reads, categorises and connects a student's certificates, resumes and reports into one searchable digital identity — with a knowledge graph and growth timeline.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-card dark">
+        <div class="about-left">
+          <svg class="arrow-dr"><use href="#i-arrow" /></svg>
+          <img src="assets/about.webp" alt="Khushi in a purple saree, sitting in a garden" loading="lazy" />
+        </div>
+        <div>
+          <h2 class="about-title" data-split>Analyse.<br />Deploy.<br />Present/</h2>
+          <p class="about-lead" data-fade>I'm a 2nd-year Data Science student who codes in Python by choice and Java by curiosity — turning coursework into hands-on projects, one of them already in production.</p>
+          <div class="about-cols" data-fade>
+            <p class="label">( About me )</p>
+            <div>
+              <p>Most of my time goes into data, models, and the cloud setup that keeps them running. On Vetra I'm the Cloud Developer &amp; Communication Lead — I build the infrastructure, then I explain it.</p>
+              <p>Right now I'm learning LangChain, practising on LeetCode, and looking for a data-driven internship — remote preferred.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="light-sec">
+      <h2 class="sec-title works-title"><span data-split>Certified /</span> <span class="count" data-fade>( 2 )</span></h2>
+      <div class="sec-intro">
+        <p class="label" data-fade>( Certifications )</p>
+        <p data-fade>Coursework I've completed and been assessed on — then put straight to use in real projects.</p>
+      </div>
+      <ul class="certs">
+        <li data-fade><span class="c-num">01</span><div><h3>Generative AI &amp; Machine Learning</h3><p>Infosys Springboard</p></div><span class="c-tag">AI / ML</span></li>
+        <li data-fade><span class="c-num">02</span><div><h3>Generative AI &amp; Machine Learning</h3><p>AWS Educate</p></div><span class="c-tag">Cloud · AI</span></li>
+      </ul>
+      <a class="roll more" href="https://www.linkedin.com/in/khushi-shinde-112402s/details/certifications/" target="_blank" rel="noopener"><span data-t="See all on LinkedIn ↗">See all on LinkedIn ↗</span></a>
+    </section>
+
+    <!-- SPEAKING -->
+    <section id="speaking" class="light-sec">
+      <h2 class="sec-title" data-split>Without losing<br />the room /</h2>
+      <div class="sec-intro">
+        <p class="label" data-fade>( On stage )</p>
+        <p data-fade>Public speaking is the skill I lean on most. Here's where I've put it to work.</p>
+      </div>
+
+      <div class="stage" data-fade>
+        <div class="slides" aria-live="polite">
+          <article class="slide on">
+            <div class="slide-text">
+              <p class="statement">On Vetra I own the cloud infrastructure — and I'm also the one who presents it to stakeholders.</p>
+              <div><p class="who-line">Cloud Developer &amp; Communication Lead</p><p class="sub">Vetra</p></div>
+              <ul class="tags"><li>Stakeholder comms</li><li>Technical narrative</li></ul>
+            </div>
+            <figure><img src="assets/vetra.webp" alt="" loading="lazy" /></figure>
+          </article>
+          <article class="slide">
+            <div class="slide-text">
+              <p class="statement">For Smart India Hackathon 2026 our team built Pashu Sathi — and I help turn a national surveillance platform into a pitch a jury can follow.</p>
+              <div><p class="who-line">Team member · Pashu Sathi</p><p class="sub">Smart India Hackathon 2026</p></div>
+              <ul class="tags"><li>Hackathon pitch</li><li>Teamwork</li></ul>
+            </div>
+            <figure class="contain"><img src="assets/pashu-sathi.webp" alt="" loading="lazy" /></figure>
+          </article>
+          <article class="slide">
+            <div class="slide-text">
+              <p class="statement">Explaining the model without losing the room — turning notebooks and numbers into a story people can act on.</p>
+              <div><p class="who-line">Data Science student</p><p class="sub">Presenter &amp; storyteller</p></div>
+              <ul class="tags"><li>Data storytelling</li><li>Public speaking</li></ul>
+            </div>
+            <figure><img src="assets/lake.webp" alt="" loading="lazy" /></figure>
+          </article>
+        </div>
+        <div class="stage-nav">
+          <span class="bar"></span><span id="slide-n">1</span><span class="of">/ 3</span>
+          <button id="prev" aria-label="Previous"><svg style="rotate:180deg"><use href="#i-arrow" /></svg></button>
+          <button id="next" aria-label="Next"><svg><use href="#i-arrow" /></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-card dark">
+        <img class="contact-bg" src="assets/sunset.webp" alt="" loading="lazy" />
+        <p class="contact-kicker" data-fade>Have a role or project in mind? Let's talk it through.</p>
+        <h2 class="contact-title" data-split>Let's make it<br />happen</h2>
+        <a class="btn btn-dark magnetic" href="mailto:shindekhushi1124@gmail.com">GET IN TOUCH</a>
+        <div class="contact-foot">
+          <div class="avail"><span class="dot"></span><p>Open to internships</p><p>Remote preferred</p></div>
+          <div class="inq"><p class="label">For further inquiries</p><a href="mailto:shindekhushi1124@gmail.com">↳ shindekhushi1124@gmail.com</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-cols">
+      <div><h4>Menu</h4><ul>
+        <li><a class="roll" href="#home"><span data-t="home">home</span></a></li>
+        <li><a class="roll" href="#services"><span data-t="services">services</span></a></li>
+        <li><a class="roll" href="#projects"><span data-t="projects">projects</span></a></li>
+        <li><a class="roll" href="#about"><span data-t="about">about</span></a></li>
+        <li><a class="roll" href="#speaking"><span data-t="speaking">speaking</span></a></li>
+        <li><a class="roll" href="#contact"><span data-t="contact">contact</span></a></li>
+      </ul></div>
+      <div><h4>Socials</h4><ul>
+        <li><a class="roll" href="https://github.com/KhushiS-codes" target="_blank" rel="noopener"><span data-t="github">github</span></a></li>
+        <li><a class="roll" href="https://www.linkedin.com/in/khushi-shinde-112402s/" target="_blank" rel="noopener"><span data-t="linkedin">linkedin</span></a></li>
+        <li><a class="roll" href="mailto:shindekhushi1124@gmail.com"><span data-t="email">email</span></a></li>
+      </ul></div>
+      <div><h4>Work</h4><ul>
+        <li><a class="roll" href="https://vetra-website-kappa.vercel.app" target="_blank" rel="noopener"><span data-t="vetra">vetra</span></a></li>
+        <li><a class="roll" href="https://github.com/omrajput14/pashu-sathii" target="_blank" rel="noopener"><span data-t="pashu sathi">pashu sathi</span></a></li>
+        <li><a class="roll" href="https://github.com/KhushiS-codes/digital-identity-system" target="_blank" rel="noopener"><span data-t="identity system">identity system</span></a></li>
+      </ul></div>
+    </div>
+    <div class="foot-bottom">
+      <p class="copy">© <span class="year">2026</span> Khushi<br />All rights reserved.</p>
+      <div class="times">
+        <p class="label">Khushi's local time</p><p id="time-ist">—</p>
+        <p class="label">Your local time</p><p id="time-you">—</p>
+      </div>
+      <a href="#home" class="to-top magnetic" aria-label="Back to top"><svg style="rotate:-90deg"><use href="#i-arrow" /></svg></a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
